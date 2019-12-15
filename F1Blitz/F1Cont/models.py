@@ -108,7 +108,7 @@ class Piloto(models.Model):
         self.save()
     
     def __str__(self):
-        resultado = self.Nombre + ' ' + self.Apellido + ' ' + self.Numero
+        resultado = self.Nombre + ' ' + self.Apellido + ' ' +'- '+ str(self.Numero)
         return resultado
 
 

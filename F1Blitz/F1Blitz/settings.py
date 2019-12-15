@@ -25,7 +25,7 @@ SECRET_KEY = 'ostx1vi$5)d8vzvo8k)l@fa_)fp6#n@7)-(zu28veksc9p0a%!'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'F1Blitz.com']
+ALLOWED_HOSTS = ['127.0.0.1', '.F1Blitz.com']
 
 
 # Application definition
@@ -106,7 +106,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'es-es'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Europe/Berlin'
 
 USE_I18N = True
 
