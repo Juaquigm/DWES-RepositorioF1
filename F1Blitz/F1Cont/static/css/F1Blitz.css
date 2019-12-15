@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+}
+h1{
+    color: crimson;
+}
+.contenedor{
+    display: flex;
+    justify-content: stretch;
+    flex-direction: row;
+}
+p{
+    color: whitesmoke;
+}
+.pilotos{
+    margin: 12px;
+    padding: 5px;
+    border-right: 1px dotted whitesmoke;
+    border-left: 1px dotted whitesmoke;
+
+}

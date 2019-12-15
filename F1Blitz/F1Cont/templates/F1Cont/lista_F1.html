@@ -1,14 +1,20 @@
-<h1>Pilotos de la F1</h1>
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{% static 'css/F1Blitz.css' %}">
+    <title>Lista de Pilotos</title>
+</head>
+<body>
+    {% block content %}
+    {% endblock %}
+    
+</body>
+</html>
 
-{% for piloto in pilotos %}
-
-<div>
-    <p>Nombre: {{ piloto.Nombre}}</p>
-    <p>Apellido: {{piloto.Apellido}}</p>
-    <p>Numero: {{piloto.Numero}}</p>
 
 
-</div>
-
-{% endfor %}
 

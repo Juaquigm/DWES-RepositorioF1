@@ -1,0 +1,14 @@
+{% extends 'F1Cont/lista_F1.html' %}
+
+{% block content %}
+<h1>Pilotos de la F1</h1>
+    <div class="contenedor">
+    {% for piloto in pilotos %}
+        <div class="pilotos">
+            <p>Nombre: {{ piloto.Nombre}}</p>
+            <p>Apellido: {{piloto.Apellido}}</p>
+            <p>Numero: {{piloto.Numero}}</p>
+        </div>
+    {% endfor %}
+    </div>
+{% endblock %}
